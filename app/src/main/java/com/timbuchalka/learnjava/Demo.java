@@ -38,6 +38,11 @@ public class Demo {
         vlad.takeDamage(10);
         vlad.showInfo();
 
+        VampyreKing bossVlad = new VampyreKing("BossVlad");
+        bossVlad.showInfo();
+        bossVlad.takeDamage(40);
+        bossVlad.showInfo();
+
     }
 
 }
